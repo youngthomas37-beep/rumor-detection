@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "谣言检测助手",
+  "version": "1.0",
+  "description": "选中文字右键检测是否谣言（调用本地 BERT 模型网页）",
+  "permissions": ["contextMenus"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "谣言检测助手" }
+}
