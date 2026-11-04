@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  body { width: 292px; font-family: "Microsoft YaHei", -apple-system, sans-serif; padding: 14px; margin: 0; }
+  h3 { margin: 0 0 10px; font-size: 15px; }
+  textarea { width: 100%; height: 90px; box-sizing: border-box; padding: 8px; font-size: 13px; border: 1px solid #d1d5db; border-radius: 6px; resize: vertical; }
+  button { margin-top: 10px; width: 100%; padding: 9px; background: #b45309; color: #fff; border: none; border-radius: 6px; font-size: 14px; cursor: pointer; }
+  .tip { font-size: 11px; color: #999; margin-top: 10px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <h3>🕵️ 谣言检测助手</h3>
+  <textarea id="text" placeholder="粘贴要检测的文字…"></textarea>
+  <button id="go">检测</button>
+  <div class="tip">点击后打开检测网页（首次需加载模型约 98MB）。也可在网页上选中文字 → 右键 →「检测是否谣言」。</div>
+  <script src="popup.js"></script>
+</body>
+</html>
